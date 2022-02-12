@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -msse2 -msse3 -Wall -std=c++11  -fopenmp -O3 -DNDEBUG -w  -shared -Wl,-soname,libcnpy.so -o ../../devel/lib/libcnpy.so CMakeFiles/cnpy.dir/src/cnpy/cnpy.cpp.o -lz 

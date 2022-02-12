@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: collaborative_fusion
+Description: Description of collaborative_fusion
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: 

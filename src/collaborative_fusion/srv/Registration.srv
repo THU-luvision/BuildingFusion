@@ -1,0 +1,5 @@
+bool ready
+string base_path
+---
+int32 camera_id
+float32[] calib_parameters

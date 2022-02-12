@@ -1,0 +1,14 @@
+Frame new_frame
+bool is_newsubmap
+bool tracking_success
+---
+int32 closure_index
+int32 closure_submapID
+bool need_optimization
+bool submap_tracking_success
+bool submap_lcd
+geometry_msgs/Transform relative_pose
+geometry_msgs/Transform camera_start_pose
+int32[] frame_candidates_index
+int32[] frame_candidates_submap
+int32[] frame_candidates_camera

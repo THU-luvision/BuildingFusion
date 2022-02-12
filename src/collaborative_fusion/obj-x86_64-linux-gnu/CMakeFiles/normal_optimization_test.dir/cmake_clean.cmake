@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/normal_optimization_test.dir/src/flatten_floor_test.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/BasicAPI.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/CommunicationAPI.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/offline_reconstruction.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/server/ServerMild.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/server/ServerSLAM.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/server/ServerOptimizer.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/Tools/OpenNI2Interface.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/Tools/RawLogReader.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/Tools/LiveLogReader.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/Tools/ImageProcessing.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCSLAM/ICPRegistration.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCSLAM/MultiViewGeometry.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCSLAM/GCSLAM.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCSLAM/DenseOdometry.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCSLAM/ORBSLAM/ORBextractor.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/Geometry/Geometry.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCFusion/RoomOptimization.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/GCFusion/MobileFusion.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/Shaders/Parse.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomDetection/DrawImage.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomDetection/Arrangements.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomDetection/DCEL.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomDetection/PatchDetection.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomDetection/Clustering.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomLCD/utils.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomLCD/example-app.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomLCD/graphmatching/ComputeFeatures.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/RoomLCD/graphmatching/GraphMatching.cpp.o"
+  "CMakeFiles/normal_optimization_test.dir/src/IO/rply/rply.c.o"
+  "CMakeFiles/normal_optimization_test.dir/src/IO/RPLYReader.cpp.o"
+  "devel/lib/collaborative_fusion/normal_optimization_test.pdb"
+  "devel/lib/collaborative_fusion/normal_optimization_test"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/normal_optimization_test.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+int32 camera_id
+#uint32 point_count
+#uint8[] meshes
+collaborative_fusion/PointCloud[] pcds
+
+---
+bool signal

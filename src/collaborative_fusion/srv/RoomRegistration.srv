@@ -1,0 +1,3 @@
+collaborative_fusion/RoomInfo room_info
+---
+geometry_msgs/Transform[] submap_poses

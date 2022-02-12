@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/KeyPoint.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/FramePose.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/FrameLocalPoints.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/FrameKeyPoints.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/FrameDescriptor.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/Frame.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/UpdateFrame.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/RoomModel.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/RoomInfo.msg;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg/PointCloud.msg"
+services_str = "/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/LoopClosureDetection.srv;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/GlobalOptimization.srv;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/MeshVisualization.srv;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/Registration.srv;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/RoomRegistration.srv;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/WithDraw.srv;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/srv/Termination.srv"
+pkg_name = "collaborative_fusion"
+dependencies_str = "geometry_msgs;sensor_msgs;std_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "collaborative_fusion;/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/msg;geometry_msgs;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;sensor_msgs;/opt/ros/kinetic/share/sensor_msgs/cmake/../msg;std_msgs;/opt/ros/kinetic/share/std_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python2"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

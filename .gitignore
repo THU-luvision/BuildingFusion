@@ -1,0 +1,9 @@
+./build/
+./devel/
+./frames/
+./Map/
+./src/collaborative_fusion/src/scn_pp/sparseconvnet/build/
+./src/collaborative_fusion/src/CHISEL/build/
+./*.ply
+./*.fpcd
+./*.png

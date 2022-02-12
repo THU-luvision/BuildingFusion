@@ -1,0 +1,2 @@
+set(collaborative_fusion_MESSAGE_FILES "msg/KeyPoint.msg;msg/FramePose.msg;msg/FrameLocalPoints.msg;msg/FrameKeyPoints.msg;msg/FrameDescriptor.msg;msg/Frame.msg;msg/UpdateFrame.msg;msg/RoomModel.msg;msg/RoomInfo.msg;msg/PointCloud.msg")
+set(collaborative_fusion_SERVICE_FILES "srv/LoopClosureDetection.srv;srv/GlobalOptimization.srv;srv/MeshVisualization.srv;srv/Registration.srv;srv/RoomRegistration.srv;srv/WithDraw.srv;srv/Termination.srv")

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/final_processing.dir/src/final_processing.cpp.o"
+  "CMakeFiles/final_processing.dir/src/BasicAPI.cpp.o"
+  "CMakeFiles/final_processing.dir/src/CommunicationAPI.cpp.o"
+  "CMakeFiles/final_processing.dir/src/offline_reconstruction.cpp.o"
+  "CMakeFiles/final_processing.dir/src/server/ServerMild.cpp.o"
+  "CMakeFiles/final_processing.dir/src/server/ServerSLAM.cpp.o"
+  "CMakeFiles/final_processing.dir/src/server/ServerOptimizer.cpp.o"
+  "CMakeFiles/final_processing.dir/src/Tools/OpenNI2Interface.cpp.o"
+  "CMakeFiles/final_processing.dir/src/Tools/RawLogReader.cpp.o"
+  "CMakeFiles/final_processing.dir/src/Tools/LiveLogReader.cpp.o"
+  "CMakeFiles/final_processing.dir/src/Tools/ImageProcessing.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCSLAM/ICPRegistration.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCSLAM/MultiViewGeometry.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCSLAM/GCSLAM.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCSLAM/DenseOdometry.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCSLAM/ORBSLAM/ORBextractor.cpp.o"
+  "CMakeFiles/final_processing.dir/src/Geometry/Geometry.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCFusion/RoomOptimization.cpp.o"
+  "CMakeFiles/final_processing.dir/src/GCFusion/MobileFusion.cpp.o"
+  "CMakeFiles/final_processing.dir/src/Shaders/Parse.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomDetection/DrawImage.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomDetection/Arrangements.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomDetection/DCEL.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomDetection/PatchDetection.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomDetection/Clustering.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomLCD/utils.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomLCD/example-app.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomLCD/graphmatching/ComputeFeatures.cpp.o"
+  "CMakeFiles/final_processing.dir/src/RoomLCD/graphmatching/GraphMatching.cpp.o"
+  "CMakeFiles/final_processing.dir/src/IO/rply/rply.c.o"
+  "CMakeFiles/final_processing.dir/src/IO/RPLYReader.cpp.o"
+  "devel/lib/collaborative_fusion/final_processing.pdb"
+  "devel/lib/collaborative_fusion/final_processing"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/final_processing.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

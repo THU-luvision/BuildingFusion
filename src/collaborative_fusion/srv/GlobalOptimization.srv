@@ -1,0 +1,8 @@
+int32 camera_id
+collaborative_fusion/UpdateFrame[] updated_frames
+bool is_newsubmap
+int32 last_submap_id
+geometry_msgs/Transform submap_relative_pose
+geometry_msgs/Point32[] floor_normals
+---
+geometry_msgs/Transform[] submap_poses

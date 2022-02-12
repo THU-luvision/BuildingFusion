@@ -1,0 +1,226 @@
+%YAML:1.0
+---
+
+#cost function coefficient
+# xishu_visual: 10    
+# 降低imu引起的抖动
+xishu_visual:   100
+xishu_imu_rtv: 1
+xishu_plane:  0
+
+
+use_cov: 1
+xishu_imu_bias_change: 1
+#0.07
+
+
+# update coefficient
+xishu_V: 1
+xishu_R: 1
+xishu_T: 1
+xishu_bg_d: 1
+xishu_ba_d: 1
+xishu_gravity: 1
+xishu_rote:  1
+xishu_trans: 1
+
+# xishu_gravity: 0.01
+# xishu_rote: 0.01
+# xishu_trans: 0.001
+
+# route parameter
+setting_route: ../Parameters/settings.yaml
+
+
+#working parameter
+sliding_window_length: 20
+# 段优化中进行初始化的关键帧个数
+ini_window_length: 5
+
+PIC_NUMBER: 24840
+
+
+drop_wrong_loop: 1
+drop_wrong_loop_relevant: 4
+# 在检测到错误回环之后,在drop_corres_length之前的关键帧的帧对都丢弃
+drop_corres_length: 10
+
+
+vixel: 0.005
+GN_number: 3
+global_opti: 1
+
+
+#working flag
+# 1 不优化  2 只有fastgo的部分  3 visual imu plane
+flag_youhua: 3
+on_line_ros: 0
+slove_method: 3
+imu_locality: 1
+
+# 0 不进行全局优化 1 只进行视觉的全局优化 2 进行视觉和imu的全局优化
+visual_loop: 0
+
+# 是否寻找视觉上的回环相关帧,可能通过这个帧来直接定位
+visual_loop_corr: 1
+
+#debug：
+exit_thread: 1
+show_cam_imu: 1
+pose_show_thread: 0
+show_trajectory: 0
+show_loop: 1
+show_loop_number: 3625
+out_bias:  0
+out_transformation: 1
+out_residual: 1
+
+exit_flag: 0
+
+showCaseMode: 1
+
+save_pic_time: 1
+save_ply: 0
+
+#mapping  如果清晰程度小于这个值，那么不进行建图
+blur_threshold: 300
+
+
+
+# # # # -------------------------------------------------azure相机
+gravity_norm:  9.80655
+# imu数据的时间延迟 t_imu = t_cam + shift 
+time_delay:  0
+# 607_1 607_2  corridor:track fail   hall_1:track fail  loop1 loop2
+# dataset_route: /home/computer/Desktop/zatabase/test/huawei_data/new_data_set/20190530_171008_frames1
+dataset_route: /home/computer/Desktop/zatabase/test/huawei_data/new_data_set/20190530_171206_frames1
+# dataset_route: /home/computer/Desktop/zatabase/test/huawei_data/new_data_set/20190530_171706_frames1
+# dataset_route: /home/computer/Desktop/zatabase/test/huawei_data/new_data_set/20190530_221707_frames1
+# dataset_route: /media/computer/新加卷/zr300和d435i-未标定/66
+
+imu_file_name: imu_true.txt
+
+# # # -------------------------------------------------camera parameter
+
+# 如果使用原分辨率，记得更改小窗口的尺寸
+# pangolin::GlTexture imageTexture(1280,720,GL_RGB,false,0,GL_RGB,GL_UNSIGNED_BYTE);
+# camera_width:   1280
+# camera_height:  720
+
+camera_width:   640
+camera_height:  480
+camera_c_fx:    604.81158
+camera_c_fy :   604.65509 
+camera_c_cx :   317.62469
+camera_c_cy :   249.57709
+camera_depth_scale :  1000
+camera_maximum_depth: 10
+camera_d0 :     0.0 
+camera_d1 :     0.0
+camera_d2 :     0.0
+camera_d3 :     0.0
+camera_d4 :     0.0
+
+
+
+
+# 注意使用azure可以先更改变换矩阵为下面的值：
+#rota<< -0.0270527,  -0.999245, -0.0278698,
+#       0.0215538, -0.0284566,  0.999363,
+#       -0.999402,  0.0264348,  0.0223073;
+
+
+# # # # # -------------------------------------------------xtion拍摄数据
+# gravity_norm:  9.80655
+# # imu数据的时间延迟 t_imu = t_cam + shift 
+# time_delay:  0.01946321794888666
+# # 607_1 607_2  corridor:track fail   hall_1:track fail  loop1 loop2
+# dataset_route: /media/computer/新加卷/xtion_imu_dataset/yijiadata/data/25
+# # dataset_route: /media/computer/新加卷/zr300和d435i-未标定/66
+
+# imu_file_name: imu_true.txt
+
+# # # # -------------------------------------------------camera parameter
+# # xtion
+# camera_width:   640
+# camera_height:  480
+# camera_c_fx:    514.817
+# camera_c_fy :   515.375
+# camera_c_cx :   318.771
+# camera_c_cy :   238.447
+# camera_depth_scale :  1000
+# camera_maximum_depth: 10
+# camera_d0 :     0.0 
+# camera_d1 :     0.0
+# camera_d2 :     0.0
+# camera_d3 :     0.0
+# camera_d4 :     0.0
+
+
+# # ------------------------------------------- ------tum dataset
+# gravity_norm:  9.80
+# # # imu数据的时间延迟 t_imu = t_cam + shift 
+# time_delay:  0.0
+# dataset_route: /home/computer/Documents/dataset/dataset_public/tum/fr3_office
+# # dataset_route: /home/computer/Documents/dataset/dataset_public/tum/fr2_xyz
+# # dataset_route: /home/computer/Documents/dataset/dataset_public/tum/fr1_desk
+# # dataset_route: /home/computer/Documents/dataset/dataset_public/tum/rgbd_dataset_freiburg3_nostructure_texture_near_withloop
+# # dataset_route: /home/computer/Documents/dataset/dataset_public/tum/rgbd_dataset_freiburg3_nostructure_notexture_near_withloop
+# # dataset_route: /home/computer/Documents/dataset/dataset_public/tum/rgbd_dataset_freiburg3_nostructure_texture_far
+# # dataset_route: /home/computer/Documents/dataset/dataset_public/tum/rgbd_dataset_freiburg3_nostructure_texture_near_withloop_validation
+
+
+# imu_file_name: imu_duan_withg100.txt
+# # imu_file_name: imu_chang_withg100.txt
+
+# # -------------------------------------------------camera parameter
+# # tum 
+# camera_width:   640
+# camera_height:  480
+# camera_c_fx:    535.4
+# camera_c_fy :   539.2
+# camera_c_cx :   320.1
+# camera_c_cy :   247.6
+# camera_depth_scale :  5000
+# camera_maximum_depth: 10
+# camera_d0 :     0.0 
+# camera_d1 :     0.0
+# camera_d2 :     0.0
+# camera_d3 :     0.0
+# camera_d4 :     0.0
+
+
+TUMDATASET: 1
+
+
+# 重力优化方式  0 优化Rg中的R  1 直接优化g
+# 更改更新方式   1 更改jacobian   2 更改变量更新
+gravity_opti_method: 1
+
+
+
+# # ------------------------------------------- ------icl-nuim dataset
+# gravity_norm:  9.80
+# # # imu数据的时间延迟 t_imu = t_cam + shift 
+# time_delay:  0.0
+# dataset_route: /home/computer/Documents/dataset/dataset_public/icl_nuim/icl3n
+# # imu_file_name: imu_duan_withg100.txt
+# imu_file_name: imu_chang_withg100.txt
+
+# #-------------------------------------------------camera parameter
+# # tum 
+# camera_width:   640
+# camera_height:  480
+# camera_c_fx:    481.20
+# camera_c_fy :   -480.00
+# camera_c_cx :   319.50
+# camera_c_cy :   239.50
+# camera_depth_scale :  5000
+# camera_maximum_depth:  8.0
+# camera_d0 :     0.0 
+# camera_d1 :     0.0
+# camera_d2 :     0.0
+# camera_d3 :     0.0
+# camera_d4 :     0.0
+
+# TUMDATASET: 0

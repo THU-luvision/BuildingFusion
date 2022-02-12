@@ -1,0 +1,8 @@
+prefix=/home/wlsdzyzl/learning/CollaborativeFusion/src/collaborative_fusion/src/devel
+
+Name: collaborative_fusion
+Description: Description of collaborative_fusion
+Version: 0.0.0
+Cflags: -I/home/wlsdzyzl/learning/CollaborativeFusion/src/collaborative_fusion/src/devel/include
+Libs: -L/home/wlsdzyzl/learning/CollaborativeFusion/src/collaborative_fusion/src/devel/lib 
+Requires: 

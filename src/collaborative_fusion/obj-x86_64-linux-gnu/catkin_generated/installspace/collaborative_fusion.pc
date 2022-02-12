@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: collaborative_fusion
+Description: Description of collaborative_fusion
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,10 @@
+int32 frame_index
+int32 submap_id
+int32 camera_id
+int32 keyPointsNum
+FramePose pose
+FrameDescriptor descriptor
+FrameLocalPoints local_points
+FrameKeyPoints keypoints             
+sensor_msgs/Image depth
+sensor_msgs/Image rgb

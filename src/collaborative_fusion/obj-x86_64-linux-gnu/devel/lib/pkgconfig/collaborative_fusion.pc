@@ -1,0 +1,8 @@
+prefix=/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/obj-x86_64-linux-gnu/devel
+
+Name: collaborative_fusion
+Description: Description of collaborative_fusion
+Version: 0.0.0
+Cflags: -I/media/zheng/Repository/CollaborativeFusion/src/collaborative_fusion/obj-x86_64-linux-gnu/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

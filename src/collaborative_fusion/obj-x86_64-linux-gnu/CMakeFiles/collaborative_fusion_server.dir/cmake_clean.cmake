@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/collaborative_fusion_server.dir/src/server_mild.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/BasicAPI.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/CommunicationAPI.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/offline_reconstruction.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/server/ServerMild.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/server/ServerSLAM.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/server/ServerOptimizer.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/Tools/OpenNI2Interface.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/Tools/RawLogReader.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/Tools/LiveLogReader.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/Tools/ImageProcessing.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCSLAM/ICPRegistration.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCSLAM/MultiViewGeometry.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCSLAM/GCSLAM.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCSLAM/DenseOdometry.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCSLAM/ORBSLAM/ORBextractor.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/Geometry/Geometry.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCFusion/RoomOptimization.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/GCFusion/MobileFusion.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/Shaders/Parse.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomDetection/DrawImage.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomDetection/Arrangements.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomDetection/DCEL.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomDetection/PatchDetection.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomDetection/Clustering.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomLCD/utils.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomLCD/example-app.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomLCD/graphmatching/ComputeFeatures.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/RoomLCD/graphmatching/GraphMatching.cpp.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/IO/rply/rply.c.o"
+  "CMakeFiles/collaborative_fusion_server.dir/src/IO/RPLYReader.cpp.o"
+  "devel/lib/collaborative_fusion/collaborative_fusion_server.pdb"
+  "devel/lib/collaborative_fusion/collaborative_fusion_server"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/collaborative_fusion_server.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

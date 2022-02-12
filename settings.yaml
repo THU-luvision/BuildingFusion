@@ -1,0 +1,61 @@
+%YAML:1.0
+
+
+
+max_feature_num: 1000
+# for experiments
+runFrameNum:  10000
+runTestFlag:  0
+runRefFrame:  800
+runNewFrame:  800
+debug_mode:   1
+# trade-off between accuracy and efficiency
+ransac_maximum_iterations:  400
+maximum_keyframe_match_num:       5
+use_fine_search:                  1
+max_average_disparity:            5
+
+# should be optimized by algorithm, select the parameters automatically.
+minimum_disparity:        0.1
+reprojection_error_3d_threshold:  0.01
+reprojection_error_2d_threshold:  6
+keyframe_minimum_distance:        4
+remove_outlier_keyframes:         0
+icp_weight:                       0.5
+far_plane_distance:               4
+
+
+# not sure if it is reasonable
+
+#fixed parameters
+hamming_distance_threshold:       50
+salient_score_threshold:          1.5
+
+# max camera number
+camera_num:                       20
+
+# if the number of the keyframes's keypoints > closure_key_points, detect loop closure
+closure_key_points:               1600
+
+maximum_frame_num:                30000
+#11
+step_len:                         11
+
+room_lcd_ransac_threshold:        0.2
+plane_fitting_ransac_threshold:   0.05
+#information_building: 0.2 0.4 8
+room_lcd_min_ratio:               0.2
+room_lcd_min_inlier:              3
+normal_weight:                    500
+room_lcd_min_icp_ratio:           0.65
+room_lcd_min_score:               0.37
+room_lcd_n_nearest:               20
+
+# you can change based on your purpose
+
+# 1 for submap integration, 2 for frame integration, 0 for non-integration
+final_integration:                0
+# for large scene, normal optimization is necessary
+# If the first frame is not perpendicular to the ground, this can lead to bad segmentation.
+# because normal optimization relys on the segmentation, so closing normal optimization can get a better result.
+normal_optimization:                      1

@@ -1,0 +1,4 @@
+int32 frame_index
+int32 submap_id
+int32 camera_id
+geometry_msgs/Transform relative_pose

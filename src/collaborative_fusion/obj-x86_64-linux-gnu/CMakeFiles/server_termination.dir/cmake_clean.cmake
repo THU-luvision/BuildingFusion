@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/server_termination.dir/src/server_termination.cpp.o"
+  "CMakeFiles/server_termination.dir/src/BasicAPI.cpp.o"
+  "CMakeFiles/server_termination.dir/src/CommunicationAPI.cpp.o"
+  "CMakeFiles/server_termination.dir/src/offline_reconstruction.cpp.o"
+  "CMakeFiles/server_termination.dir/src/server/ServerMild.cpp.o"
+  "CMakeFiles/server_termination.dir/src/server/ServerSLAM.cpp.o"
+  "CMakeFiles/server_termination.dir/src/server/ServerOptimizer.cpp.o"
+  "CMakeFiles/server_termination.dir/src/Tools/OpenNI2Interface.cpp.o"
+  "CMakeFiles/server_termination.dir/src/Tools/RawLogReader.cpp.o"
+  "CMakeFiles/server_termination.dir/src/Tools/LiveLogReader.cpp.o"
+  "CMakeFiles/server_termination.dir/src/Tools/ImageProcessing.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCSLAM/ICPRegistration.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCSLAM/MultiViewGeometry.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCSLAM/GCSLAM.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCSLAM/DenseOdometry.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCSLAM/ORBSLAM/ORBextractor.cpp.o"
+  "CMakeFiles/server_termination.dir/src/Geometry/Geometry.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCFusion/RoomOptimization.cpp.o"
+  "CMakeFiles/server_termination.dir/src/GCFusion/MobileFusion.cpp.o"
+  "CMakeFiles/server_termination.dir/src/Shaders/Parse.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomDetection/DrawImage.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomDetection/Arrangements.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomDetection/DCEL.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomDetection/PatchDetection.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomDetection/Clustering.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomLCD/utils.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomLCD/example-app.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomLCD/graphmatching/ComputeFeatures.cpp.o"
+  "CMakeFiles/server_termination.dir/src/RoomLCD/graphmatching/GraphMatching.cpp.o"
+  "CMakeFiles/server_termination.dir/src/IO/rply/rply.c.o"
+  "CMakeFiles/server_termination.dir/src/IO/RPLYReader.cpp.o"
+  "devel/lib/collaborative_fusion/server_termination.pdb"
+  "devel/lib/collaborative_fusion/server_termination"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/server_termination.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

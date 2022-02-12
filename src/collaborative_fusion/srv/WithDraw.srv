@@ -1,0 +1,4 @@
+int32 camera_id
+bool withdraw
+---
+bool success

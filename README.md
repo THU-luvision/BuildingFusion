@@ -1,15 +1,14 @@
 # BuildingFusion: Semantic-aware Structural Building-scale 3D Reconstruction (TPAMI 2021)
 
+
 By Tian Zheng; Guoqing Zhang; Lei Han; Lan Xu; Lu Fang*. (\*) Corresponding author.
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9286413) 
 
 
-<!-- <div align="center">
-<img src="docs/scene0249_00_output_2.gif" width="48%" />
-<img src="docs/scene0430_00_output_2.gif" width="48%" />
+<div align="center">
+<img src="figs/teaser.png" width="100%" />
 </div>
-
-<br> -->
+<br>
 
 ## Introduction
 This is the official code repository for BuildingFusion, a semantic-aware structural building-scale reconstruction system, which allows collaborative building-scale dense reconstruction, with online semantic and structural understanding. It is able to handle large scale scenes (~1000m^2).
@@ -41,3 +40,40 @@ If you find our code useful, please kindly cite our paper:
 2. Modify the correct paths to the data in `docker_run.sh`
 3. Start with `bash docker_run.sh`
 
+## Collaborative Reconstruction
+
+After a server is running with:
+```
+roscore
+rosrun collaborative_fusion collaborative_fusion_server
+```
+
+We can launch multiple agent with:
+```
+export ROS_MASTER_URI=http://<server ip>:<server port>
+rosrun collaborative_fusion collaborative_fusion_client <dataset path (optional, no need for online scanning)>
+```
+## Data
+
+We support both data stream from an Xtion RGBD camera and from a offline dataset. 
+
+The format of offline dataset follows TUM RGBD Dataset:
+
+```
+- Dataset
+    - sequence 1
+        - rgb
+        - depth
+        - associate.txt
+    - sequence 2
+        - rgb
+        - depth
+        - associate.txt
+...
+```
+
+## Parameters
+
+The calibration information is in `calib.txt`. Change according to the dataset.
+
+Runtime parameters are in `setting.yaml`.

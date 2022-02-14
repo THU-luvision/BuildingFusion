@@ -1444,8 +1444,10 @@ public:
         
         unlabeled_submap.insert(0);//initialize the unlabeled submap.
         submap_to_room.push_back(-1);
-        patch_image = cv::Mat::zeros(cameraModel.GetHeight(), cameraModel.GetWidth(), CV_8UC3);
-        cell_image = cv::Mat::zeros(cameraModel.GetHeight(), cameraModel.GetWidth(), CV_8UC3);
+        // patch_image = cv::Mat::zeros(cameraModel.GetHeight(), cameraModel.GetWidth(), CV_8UC3);
+        // cell_image = cv::Mat::zeros(cameraModel.GetHeight(), cameraModel.GetWidth(), CV_8UC3);
+        patch_image = cv::Mat::zeros(0, 0, CV_8UC3);
+        cell_image = cv::Mat::zeros(0, 0, CV_8UC3);
     }
 
     void IntegrateFrame( Frame & frame_ref);

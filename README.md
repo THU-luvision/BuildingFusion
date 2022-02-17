@@ -36,7 +36,7 @@ If you find our code useful, please kindly cite our paper:
 
 ## Quickstart with docker
 0. Install docker and nvidia runtime following [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html). A CUDA capable GPU is required.
-1. Download the test data from http://www.example.com
+1. Download the test data from https://153.35.185.228/opensource_data/BuildingFusion/test_sequence.zip
 2. Modify the correct paths to the data in `docker_run.sh`
 3. Start with `bash docker_run.sh`
 

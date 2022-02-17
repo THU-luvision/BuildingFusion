@@ -1,1 +1,1 @@
-Download and extract `http://www.example.com/building_fusion_dependencies.tar.gz` here.
+Download and extract `https://153.35.185.228/opensource_data/BuildingFusion/building_fusion_dependencies.tar.gz` here.

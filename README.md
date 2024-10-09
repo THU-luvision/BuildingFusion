@@ -1,7 +1,7 @@
 # BuildingFusion: Semantic-aware Structural Building-scale 3D Reconstruction (TPAMI 2021)
 
 
-By Tian Zheng; Guoqing Zhang; Lei Han; Lan Xu; Lu Fang*. (\*) Corresponding author.
+By Tian Zheng\^; Guoqing Zhang\^; Lei Han\^; Lan Xu; Lu Fang* (\^ equal contribution, \* corresponding author).
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9286413) 
 
 
@@ -55,7 +55,7 @@ rosrun collaborative_fusion collaborative_fusion_client <dataset path (optional,
 ```
 ## Data
 
-We support both data stream from an Xtion RGBD camera and from a offline dataset. 
+We support data streams from Xtion RGBD cameras or offline sequences. 
 
 The format of offline dataset follows TUM RGBD Dataset:
 
@@ -74,6 +74,6 @@ The format of offline dataset follows TUM RGBD Dataset:
 
 ## Parameters
 
-The calibration information is in `calib.txt`. Change according to the dataset.
+The calibration information is in `calib.txt`, which should be changed according to the dataset. `calib` provides some calibration parameters used in our experiments. 
 
 Runtime parameters are in `setting.yaml`.
